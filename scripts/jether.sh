@@ -68,8 +68,8 @@ node(){
   geth --datadir $DATADIR \
   --networkid $CHAINID \
   --port $OWNPORT \
-  --bootnodesv4 $V4ENODE$V4PORT \
-  --bootnodesv5 $V5ENODE$V5PORT \
+  --bootnodesv4 $ENODE$V4PORT \
+  --bootnodesv5 $ENODE$V5PORT \
   --verbosity 3
 }
 
@@ -77,8 +77,8 @@ mining(){
   geth --datadir $DATADIR \
   --networkid $CHAINID  \
   --port $OWNPORT \
-  --bootnodesv4 $V4ENODE$V4PORT \
-  --bootnodesv5 $V5ENODE$V5PORT \
+  --bootnodesv4 $ENODE$V4PORT \
+  --bootnodesv5 $ENODE$V5PORT \
   --mine \
   --minerthreads $THREADSFORMINING \
   --etherbase $ACCOUNT
