@@ -35,7 +35,7 @@ This tool has two configuration files:
 - default_jethereum.cfg: contains gobal configuration for accessing the blockchain.
 - personal_jethereum.cfg: contains your personal settings, make sure to adjust them to your needs and local settings
 
-####Configuration Parameters
+#### Configuration Parameters
 
 | Parameter  | Desription  |
 |---|---|
