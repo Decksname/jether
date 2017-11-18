@@ -6,7 +6,7 @@ set -o pipefail
 
 #######################################################################
 # Title      :    jether.sh
-# Author     :    Maximilian Schenk (maximilian.schenk@jambit.com)
+# Author     :    Maximilian Schenk (max.schenk@gmx.net)
 # Date       :    2007-11-02
 # Version    :    1.0
 #######################################################################
@@ -20,7 +20,7 @@ set -o pipefail
 #######################################################################
 
 VERSION="1.0"
-BACKTITLE="jether - jambit Ethereum based Blockchain"
+BACKTITLE="jether - Control Center for Ethereum based blockchain"
 
 CONFIGFILE="default_jethereum.cfg"
 PERSONAL_CONFIGFILE="personal_jethereum.cfg"
@@ -61,7 +61,7 @@ remove(){
 
 version() {
     dialog --backtitle "$BACKTITLE" \
-           --msgbox "$PN - Version $VERSION\nMaximilian Schenk (maximilian.schenk@jambit.com)" 9 52
+           --msgbox "$PN - Version $VERSION\nMaximilian Schenk (max.schenk@gmx.net)" 9 52
 }
 
 node(){
@@ -85,8 +85,7 @@ mining(){
 }
 
 wallet(){
-  local CMD='$APP_ETHEREUMWALLET'
-  "$CMD" --rpc $IPC;
+  "$APP_ETHEREUMWALLET" --rpc $IPC;
 }
 
 mist(){
@@ -154,7 +153,7 @@ MENU="SETUP"
 main_menu() {
   MENU="MAIN"
 
-    dialog --backtitle "jether - jambit Ethereum based Blockchain" --title " Control Center - V. $VERSION "\
+    dialog --backtitle "$BACKTITLE" --title " Main Menu - V. $VERSION "\
         --cancel-label "Quit" \
         --menu "Move using [UP] [DOWN], [Enter] to select" 20 60 8\
         Wallet "Start Ethereum Wallet"\
@@ -162,7 +161,7 @@ main_menu() {
         Node "Start Node"\
         Mining "Start Mining Node"\
         Attach "Attach to geth IPC"\
-        Setup "Setup jethereum chain"\
+        Setup "Setup your local chain"\
         Version "Show program version info"\
         Quit "Exit the program" 2>$_temp
 
