@@ -2,25 +2,25 @@
 
 This tool is optimized for mac
 
-##Download current Version:
+## Download current Version:
 
 | Filename  | Version  | Date  |
 |---|:-:|:-:|
 |jether_1.0.zip   | 1.0  | 18. Nov 2017  |
 
 
-##What you need
+## What you need
 
-###Tools
+### Tools
 - dialog (`brew install dialog`   )
 - go-ethereum (`brew install ethereum` or [https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac]())
 
-###Applications
+### Applications
 
 - Ethereum Wallet [https://github.com/ethereum/mist/releases]()
 - Mist [https://github.com/ethereum/mist/releases]()
 
-##Download current Version:
+## Download current Version:
 
 | Filename  | Version  | Date  |
 |---|:-:|:-:|
@@ -28,7 +28,7 @@ This tool is optimized for mac
 
 
 
-##Setup
+## Setup
 
 This tool has two configuration files:
 
@@ -48,6 +48,6 @@ This tool has two configuration files:
 |APP_MIST|Path to your Ethereum Wallet application. This will be the same on most mac systems. It is required to start the application and make it connect to your private network and not the mainnet|
 
 
-##Run
+## Run
 
 `./jether.sh`
