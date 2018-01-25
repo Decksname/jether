@@ -1,13 +1,9 @@
 # jether - Control Center for Ethereum based blockchain
 
-This tool is optimized for mac
+jether is a simple dialog tool for a set of shell commands I usually can't remember because because these ethereum and geth commands are long as hell and also fail silently. 
 
-## Download current Version:
 
-| Filename  | Version  | Date  |
-|---|:-:|:-:|
-|jether_1.0.zip   | 1.0  | 18. Nov 2017  |
-
+This tool is optimized for mac.
 
 ## What you need
 
