@@ -56,4 +56,4 @@ This tool has two configuration files:
 
 ## Open Topics
 
-- automatic delete an reste
+- automatic delete, cleanup and initialize your own blockchain setup 
