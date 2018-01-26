@@ -23,11 +23,11 @@ And this tool is optimized for mac.
 
 ## Download current Version:
 
-| Filename  | Version  | Date  |
-|---|:-:|:-:|
-| [jether_1.0.zip](https://github.com/Decksname/jether/releases/tag/1.0)  | 1.0  | 18. Nov 2017  |
-| [jether_1.1.zip](https://github.com/Decksname/jether/archive/1.1.zip)  | 1.1  | 26. Jan 2018  |
-| jether_1.2.zip[]()  | 1.2  | 26. Jan 2018  |
+| zip| tar.gz  | Version  | Date  |
+|---|---|:-:|:-:|
+|[jether-1.0.zip](https://github.com/Decksname/jether/archive/1.0.zip)|[jether-1.0.tar.gz](https://github.com/Decksname/jether/archive/1.0.tar.gz) | 1.0  | 18. Nov 2017  |
+| [jether-1.1.zip](https://github.com/Decksname/jether/archive/1.1.zip)  |[jether-1.1.tar.gz](https://github.com/Decksname/jether/archive/1.1.tar.gz)| 1.1  | 26. Jan 2018  |
+| [jether-1.2.zip](https://github.com/Decksname/jether/archive/1.2.zip)  |[jether-1.2.tar.gz](https://github.com/Decksname/jether/archive/1.2.tar.gz)| 1.2  | 26. Jan 2018  |
 
 
 ## Setup
@@ -56,4 +56,4 @@ This tool has two configuration files:
 
 ## Open Topics
 
-- automatic remove, cleanup an initialize your own blockchain setup
+- automatic delete an reste
