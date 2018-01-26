@@ -2,10 +2,15 @@
 
 jether is a simple dialog tool for a set of shell commands I usually can't remember because because these ethereum and geth commands are long as hell and also fail silently. 
 
+jether has two menus. The Main Menu for starting and stopping nodes and applications.
+![](images/MainMenu_V1.0.png)
 
-This tool is optimized for mac.
+and the Setup Menu, which helps you to initialize and remove & cleanup your own blockchain. Once you have tried to build your own blockchain, you will learn that a clean restart is something you want to do fast.
+![](images/SetupMenu_V1.0.png)
 
-## What you need
+And this tool is optimized for mac.
+
+## Installation 
 
 ### Tools
 - dialog (`brew install dialog`   )
@@ -21,6 +26,7 @@ This tool is optimized for mac.
 | Filename  | Version  | Date  |
 |---|:-:|:-:|
 | [jether_1.0.zip](https://github.com/Decksname/jether/blob/master/releases/jether_1.0.zip)  | 1.0  | 18. Nov 2017  |
+| [jether_1.1.zip](https://github.com/Decksname/jether/blob/master/releases/jether_1.0.zip)  | 1.1  | 26. Jan 2018  |
 
 
 
