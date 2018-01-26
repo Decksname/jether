@@ -26,7 +26,7 @@ And this tool is optimized for mac.
 | Filename  | Version  | Date  |
 |---|:-:|:-:|
 | [jether_1.0.zip](https://github.com/Decksname/jether/blob/master/releases/jether_1.0.zip)  | 1.0  | 18. Nov 2017  |
-| [jether_1.1.zip](https://github.com/Decksname/jether/blob/master/releases/jether_1.0.zip)  | 1.1  | 26. Jan 2018  |
+| [jether_1.1.zip](https://github.com/Decksname/jether/archive/1.1.zip)  | 1.1  | 26. Jan 2018  |
 
 
 
